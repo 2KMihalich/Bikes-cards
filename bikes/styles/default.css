@@ -1,0 +1,54 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: "Montserrat";
+  background-color: #f4f4f4;
+}
+img,
+svg {
+  max-width: 100%;
+  /*height: auto;*/
+  max-height: 100%;
+}
+button {
+  padding: 0;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+.container {
+  max-width: 846px;
+  margin: 0 auto;
+  /*padding: 30px 20px;*/
+}
+
+@media (min-width: 480px) {
+  .container {
+    padding: 40 60px;
+  }
+}
