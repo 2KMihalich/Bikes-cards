@@ -49,6 +49,6 @@ p {
 
 @media (min-width: 480px) {
   .container {
-    padding: 40 60px;
+    padding: 40px 60px;
   }
 }
